@@ -1,0 +1,8 @@
+CREATE TABLE PeopleGroup (
+                             id SERIAL PRIMARY KEY,
+                             name VARCHAR(255) NOT NULL,
+                             gender VARCHAR(10) NOT NULL,
+                             age INT NOT NULL,
+                             group_name VARCHAR(255) NOT NULL,
+                             group_number INT NOT NULL
+);
